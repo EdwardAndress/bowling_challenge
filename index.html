@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bowling scorecard</title>
+    <script src='src/Frame.js'></script>
+    <script src='src/Game.js'></script>
+    <script src='src/GameRunner.js'></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    >
+  </head>
+  <body>
+    <div>
+      <table class='table'>
+        <tr id='frame-number'>
+          <th scope="row"></th>
+        </tr>
+        <tr id='roll-one'>
+          <th scope="row">Roll 1</th>
+        </tr>
+        <tr id='roll-two'>
+          <th scope="row">Roll 2</th>
+        </tr>
+        <tr id='total'>
+          <th scope="row">Frame total</th>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h3 id='game-total'></h3>
+    </div>
+    <div id='score-input-buttons'>
+    </div>
+  </body>
+</html>
